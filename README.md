@@ -34,13 +34,9 @@ English_and_coding_are_so_difficult_for_me
 步骤：  
 * 前端页面开发：Login.vue    AppIndex.vue   
 * 前端相关配置：  
-
 设置反向代理：修改 src\main.js; 因为使用了新的模块 axios，所以需要进入到项目文件夹中，执行 npm install --save axios，以安装这个模块  
-
 配置页面路由：修改 src\router\index.js  
-
 跨域支持：为了让后端能够访问到前端的资源，需要配置跨域支持。在 config\index.js 中，找到 proxyTable 位置，修改  
-
 * 可运行前端项目查看登陆页面效果
  
 前端主要代码：
